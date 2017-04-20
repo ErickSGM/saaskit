@@ -4,7 +4,7 @@
     <Description>Multi-tenancy support for ASP.NET Core.</Description>
     <Copyright>Copyright © Ben Foster</Copyright>
     <VersionPrefix>1.1.4</VersionPrefix>
-    <TargetFrameworks>netstandard1.3</TargetFrameworks>
+    <TargetFrameworks>net451;netstandard1.6</TargetFrameworks>
     <AssemblyName>SaasKit.Multitenancy</AssemblyName>
     <PackageId>SaasKit.Multitenancy</PackageId>
     <PackageTags>Multi-tenancy;Multitenant;Multitenancy;Multitenant;Saas</PackageTags>
@@ -23,11 +23,6 @@
     <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="1.1.1" />
     <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="1.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="1.1.1" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <Folder Include="Properties\" />
-    <Folder Include="Properties\" />
   </ItemGroup>
 
 </Project>
