@@ -7,6 +7,7 @@
     <OutputType>Exe</OutputType>
     <PackageId>AspNetMvcSample</PackageId>
     <UserSecretsId>aspnet5-AspNetMvcSample-2b03b0cf-4f4c-4fae-bba3-303b68732429</UserSecretsId>
+    <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;portable-net45+win8</PackageTargetFallback>
   </PropertyGroup>
 
   <ItemGroup>

@@ -7,6 +7,7 @@
     <OutputType>Exe</OutputType>
     <PackageId>AspNetMvcAuthDemo</PackageId>
     <UserSecretsId>aspnet5-AspNetMvcAuthSample-20160229033356</UserSecretsId>
+    <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;portable-net45+win8</PackageTargetFallback>
   </PropertyGroup>
 
   <ItemGroup>
